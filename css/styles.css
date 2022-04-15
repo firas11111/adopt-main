@@ -1,0 +1,110 @@
+#banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(../images/pawPrint.jpeg);
+    height: 120px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+nav {
+    background-color: #1e223b;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    height: 400px;
+    width: 75%;
+    margin: 30px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid #1e223b;
+
+}
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+table.animals {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table.animals th {
+    font-size: 25px;
+    background-color: #1e223b;
+
+    padding: 10px;
+    color: #fff;
+}
+
+table.animals td {
+    border: 1px solid #1e223b;
+    padding: 10px;
+    color: #1e223b;
+}
+
+table.animals a {
+    color: #1e223b;
+    padding: 10px;
+}
+
+table.animals a:hover {
+    background-color: #1e223b;
+    color: #fff;
+}
+
+table.animaldetails td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table.animaldetails p {
+    min-height: 50px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 16px;
+    padding: 5px;
+}
+
+table.animaldetails h4 {
+    min-height: 50px;
+    text-align: center;
+}
+
+img {
+    height: 450px;
+    width: 400px;
+}
+
+
+
+
+
