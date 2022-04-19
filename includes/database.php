@@ -3,7 +3,7 @@
 $host = "localhost";
 $login = "phpuser";
 $password = "phpuser";
-$database = "pet_adopt";
+$database = "final_i210";
 
 // connect to the mysql sever
 $conn = @new mysqli($host, $login, $password, $database);

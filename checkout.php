@@ -15,7 +15,7 @@ if (!isset($_COOKIE['user']) OR !isset($_COOKIE['pass'])) {
 $_SESSION['cart']='';
 
 //set page title
-$page_title= "YNWA Online Store Checkout";
+$page_title= "Animals Checkout";
 
 //display the header
 require_once('includes/header.php');
